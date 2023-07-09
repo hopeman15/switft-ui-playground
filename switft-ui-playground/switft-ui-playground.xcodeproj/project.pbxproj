@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BC004AF2A4B7A100066F0AE /* switft_ui_playgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC004AE2A4B7A100066F0AE /* switft_ui_playgroundApp.swift */; };
+		2BC004AF2A4B7A100066F0AE /* PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC004AE2A4B7A100066F0AE /* PlaygroundApp.swift */; };
 		2BC004B12A4B7A100066F0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC004B02A4B7A100066F0AE /* ContentView.swift */; };
 		2BC004B32A4B7A120066F0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC004B22A4B7A120066F0AE /* Assets.xcassets */; };
 		2BC004B62A4B7A120066F0AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC004B52A4B7A120066F0AE /* Preview Assets.xcassets */; };
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		2BC004AB2A4B7A100066F0AE /* switft-ui-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "switft-ui-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BC004AE2A4B7A100066F0AE /* switft_ui_playgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switft_ui_playgroundApp.swift; sourceTree = "<group>"; };
+		2BC004AE2A4B7A100066F0AE /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
 		2BC004B02A4B7A100066F0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BC004B22A4B7A120066F0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BC004B52A4B7A120066F0AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		2BC004AD2A4B7A100066F0AE /* switft-ui-playground */ = {
 			isa = PBXGroup;
 			children = (
-				2BC004AE2A4B7A100066F0AE /* switft_ui_playgroundApp.swift */,
+				2BC004AE2A4B7A100066F0AE /* PlaygroundApp.swift */,
 				2BC004B02A4B7A100066F0AE /* ContentView.swift */,
 				2BC004B22A4B7A120066F0AE /* Assets.xcassets */,
 				2BC004B42A4B7A120066F0AE /* Preview Content */,
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BC004B12A4B7A100066F0AE /* ContentView.swift in Sources */,
-				2BC004AF2A4B7A100066F0AE /* switft_ui_playgroundApp.swift in Sources */,
+				2BC004AF2A4B7A100066F0AE /* PlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
