@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B239FAB2A5B4B6500470B35 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B239FAA2A5B4B6500470B35 /* CircleImage.swift */; };
+		2B239FAF2A5B4CB700470B35 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B239FAE2A5B4CB700470B35 /* MapView.swift */; };
 		2BC004AF2A4B7A100066F0AE /* PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC004AE2A4B7A100066F0AE /* PlaygroundApp.swift */; };
 		2BC004B12A4B7A100066F0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC004B02A4B7A100066F0AE /* ContentView.swift */; };
 		2BC004B32A4B7A120066F0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC004B22A4B7A120066F0AE /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B239FAA2A5B4B6500470B35 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		2B239FAE2A5B4CB700470B35 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2BC004AB2A4B7A100066F0AE /* switft-ui-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "switft-ui-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC004AE2A4B7A100066F0AE /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
 		2BC004B02A4B7A100066F0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +75,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B239FAC2A5B4C7B00470B35 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				2B239FAD2A5B4C8900470B35 /* components */,
+				2BC004B02A4B7A100066F0AE /* ContentView.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		2B239FAD2A5B4C8900470B35 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				2B239FAA2A5B4B6500470B35 /* CircleImage.swift */,
+				2B239FAE2A5B4CB700470B35 /* MapView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		2BC004A22A4B7A100066F0AE = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +116,8 @@
 		2BC004AD2A4B7A100066F0AE /* switft-ui-playground */ = {
 			isa = PBXGroup;
 			children = (
+				2B239FAC2A5B4C7B00470B35 /* ui */,
 				2BC004AE2A4B7A100066F0AE /* PlaygroundApp.swift */,
-				2BC004B02A4B7A100066F0AE /* ContentView.swift */,
 				2BC004B22A4B7A120066F0AE /* Assets.xcassets */,
 				2BC004B42A4B7A120066F0AE /* Preview Content */,
 			);
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BC004B12A4B7A100066F0AE /* ContentView.swift in Sources */,
+				2B239FAF2A5B4CB700470B35 /* MapView.swift in Sources */,
 				2BC004AF2A4B7A100066F0AE /* PlaygroundApp.swift in Sources */,
+				2B239FAB2A5B4B6500470B35 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
